@@ -39,59 +39,37 @@ types of statements
 #b=int(input())
 #if(a == b):
    # print('5 is equal to 5')
-   # print('successful!')           # it has an two (if )its check the first if statement if its executed it or its false
+   # print('successful!')           # in if-else its check the if the condition of the if is true its execute code rather than execyte the else statemen
     
-if(b == 8):
-    print("b is equal to  6")
+#if(b == 8):
+    #print("b is equal to  6")
 #else:
     #print('a is not equal to 5')
 
 
 
 
-a=5
-b=int(input())
-if(a == b):
-    print('5 is equal to 5')
-    print('successful!')           # it has an two (if )its check the first if statement if its executed it or its false is go to the else
-    ##
+#a=5
+#b=int(input())
+#if(a == b):
+    #print('5 is equal to 5')
+    #print('successful!')           #in this program contains if-if it means its check all the if --it's true lets execute them    ##
 
-if(b == 8):
-    print("b is equal to  6")
-else:
-    print('a is not equal to 5')
-
-
-
-
-
-
-
+#if(b == 8):
+    #print("b is equal to  6")
+#else:
+   #print('a is not equal to 5')
 
 
 
 
 a=5
-b=int(input())
-if(a == b):
-    print('5 is equal to 5')
-    print('successful!')           # it has an two (if )its check the first if statement if its executed it or its false is go to the else
+b=6
+if a>b:
+    print( "a is to be successfull")     # (if-elif-else) first checkout the if its wrong  go to the elif its true execute them than rather its also false go to the else .
+elif a < b:                             
+    print("highest")                         #Espectiallly used to check out the two conditions
 
-elif(b == 8):
-    print("b is equal to  6")
 else:
-    print('a is not equal to 5')    
-
-
-
-
-a=5
-b=int(input())
-if(a == b):
-    print('5 is equal to 5')
-    print('successful!')           # it has an two (if )its check the first if statement if its executed it or its false is go to the else
-
-elif(b == 8):
-    print("b is equal to  6")
-else:
-    print('a is not equal to 5')     
+    print ("sorry i cannot that")
+             
