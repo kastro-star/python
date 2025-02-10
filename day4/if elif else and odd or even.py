@@ -14,3 +14,10 @@ else:
     message = "you are eligible for reguler discount"
         
 print(message)
+#find the number is odd or even
+num = int(input())
+
+if(num %2 ==0):
+    print("even number")
+else:
+    print("odd number")
