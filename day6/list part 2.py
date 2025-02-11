@@ -44,4 +44,25 @@ print(lst1)           #if you don't mention any index ,it atomatically remove th
 #remove
 lst1.remove(3)
 print(lst1)
+'''
+
+difference between pop and remove
+pop() function it will remove the elements based on their index value
+
+remove() function it will remove the elements directly if you tell the element orginal value
+it first fifo search if it find the given value remove it and ends don't remove the duplicate values(like the same numbers)
+'''
+
+
+#nested lists is list contains another list inside of the list
+
+#lst =[[1,2,3],[4,5,6]]
+#print(lst)      
+
+lst =[[1,2,3],[4,5,6]]
+print(lst[0][1])     #it will print the value occur on the index value 1      
+
+
+lst =[[1,2,3],[4,5,6]]
+print(lst[1][1])     #first will take the first list's index values and second works for the inside of the list
 
