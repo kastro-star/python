@@ -37,6 +37,25 @@ print(lst1)
 lst1.extend(lst2)
 print(lst1)
 
-#
+lst1=[1,2,3]
+lst2=[4,5,6]
+lst1.insert(0,5)
+print(lst1)
+
+#to store the values of the list into the another list
+lst1.append(lst2) #that lst1 appends the lst2 as an single value but stores the full list 
+print(lst1)
+
+
+#count the no of elements
+print(lst1.count(4)) #find no of 4 values in the list
+
+#find the index number the value was placed
+print(lst1.index(5))      #first occured node will be displayed  
+
+#clear keyword is used to clear the whole list
+lst1.clear()
+print(lst1)
+
 
 
