@@ -2,7 +2,7 @@
 
 #a=9
 #b=3
-quotient  //
+quotient  //  ----floor division eg 9.0//2.0 =4.0
 remainder %
 divide /
 add +
