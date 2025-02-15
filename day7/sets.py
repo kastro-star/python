@@ -1,5 +1,5 @@
 #unordered , all types of datatypes ,duplcates cannot be allowed
-'''
+
 set1= {1,2,3,4,1}
 print(type(set1))
 
@@ -42,7 +42,6 @@ for i in set1:
 
 print(1 in set1)    # to find the value is present in the traverse
 
-'''
 set1= {1,2,3,4}
 set2 ={4,5}
 set3={2,3,4,5,6,7,8}
