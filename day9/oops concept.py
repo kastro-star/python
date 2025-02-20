@@ -1,4 +1,4 @@
-#oops concept
+#oops concept     Abstraction, Encapsulation, Inheritance, and Polymorphism are the four pillars of object-oriented programming
 '''
 #car
 noofwheels=4
