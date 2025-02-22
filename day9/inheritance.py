@@ -69,7 +69,7 @@ class vehicle:   #parent class
         print("vehicle is moving forward!")
 
 
-class car(vehicle): #
+class car(vehicle):                               #its called multiple inheritance 
     noofairbags=5
 
 
@@ -77,6 +77,20 @@ class maruthi(car):
     mileage=56.0
 
 
+class toyoto(car):
+    mileage=60
+
+class toyothi(maruthi,toyoto):  #there are two parents single child class is called diamond problem
+    has_touchscreen = True
+
+car2=toyothi()
+print(car2.noofwheels)
+print(car2.noofairbags)
+print(car2.mileage)
+car2.moveforward()
+    
+
+'''
 car1 = maruthi()
 print(car1.noofwheels)
 print(car1.noofairbags)
@@ -84,6 +98,27 @@ print(car1.mileage)
 car1.moveforward()
 
 
+
+#multiple inheritance
+
+
+class father:
+    haircolor='white'
+
+class mother:
+    eye="blue"
+    haircolor="black"
+
+class child(father,mother): #mention the class in priority wise
+    age=23
+
+child23 = child()
+print(child23.age)
+print(child23.eye)
+print(child23.haircolor)  #take the value from the first mentioned class values
+    
+
+'''
 
 
 
